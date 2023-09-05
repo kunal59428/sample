@@ -1,0 +1,108 @@
+/*
+===========
+global styles
+===========
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    background-image: url(img/bg.jpg);
+}
+.box {
+    height: 450px;
+    width: 400px;
+    border: 1px solid black;
+    padding-top: 10px;
+    margin: 120px auto 0px auto;
+    background: linear-gradient(to bottom right, #66ff66 0%, #0000ff 155%);
+    border-radius: 16px;
+}
+.h2{
+    padding-left: 80px;
+}
+.form{
+    margin-top: 25px;
+    border: none;
+    padding-left: 80px;
+    outline: none;
+}
+.input{
+        font-size: 17px;
+        padding: 14px 16px;
+        border-radius: 16px;
+        outline: none;
+}
+.btn {
+    padding: 5px 5px 5px 5px;
+    width: 80px;
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top: 10px;
+    outline: none;
+}
+.create {
+    margin-top: 30px;
+    padding-left: 100px;
+    margin-left: 10px;
+    height: 40px;
+    display: flex;
+    border-radius: 15px;
+    outline: none;
+}
+.cbtn {
+    margin: 0px 20px 0px 20px;
+    width: 140px;
+    background: linear-gradient(to right, #00ccff 0%, #ffff00 100%);
+    padding: 2px 2px 2px 2px;
+    border-radius: 15px;
+    outline: none;
+}
+.cbtn a{color:#000;}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.cbtn:hover {
+    color: blue;
+}
+.social{
+    margin-top: 20px;
+    padding-left: 80px;
+}
+.social-icons{
+    padding: 10px;
+    margin-top: 30px;
+    transition: 0.7s;
+}
+.social-icons:hover {
+    border-radius: 20px;
+    transition: 0.7s;
+}
+.social-icons a{
+    color: white;
+}
+.fb{
+    background: #3a589b;
+    color: #fff;
+    padding: 9px 12px;
+}
+.gp{
+    background: #d6492f;
+    color: #fff;
+}
+.tw{
+    background: #32ccfe;
+    color: #fff;
+}
+.ln{
+    background: #007bb6;
+    color: #fff;
+}
